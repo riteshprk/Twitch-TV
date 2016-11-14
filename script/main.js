@@ -26,7 +26,7 @@ $.ajax({
 								if(data.stream){
 						
 							        
-									$(".firstData").append("<tr><td><h3>"+listChannel[item]+"</h3></td><td style='color:green'><h3>Online</h3></td><td><a href="+data.stream.channel.url+"><img class = 'img-responsive' src="+data.stream.preview.medium+"></img></a></td></tr>"); 
+									$(".firstData").append("<tr><td><h3>"+listChannel[item]+"</h3></td><td style='color:green'><h3>Online</h3></td><td><a href="+data.stream.channel.url+"><img class = 'img-responsive' src="+data.stream.preview.medium+"></img><h4>Streaming: "+data.stream.game+"</h4></a></td></tr>"); 
 								
 			
 								} else{
