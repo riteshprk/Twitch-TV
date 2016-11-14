@@ -1,0 +1,32 @@
+body {
+ background: linear-gradient(180deg, black, blue);
+ position: relative;
+ height: 120vh;
+ color: grey;
+ margin: 10px;
+
+}
+/* enable absolute positioning */
+.insideObj {
+  position: relative;
+}
+
+/* style glyph */
+.insideObj .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align glyph */
+
+.rightObj .glyphicon { right: 0px;}
+
+/* add padding  */
+
+.rightObj input { padding-right: 30px; }
+
+
+
+
+
