@@ -2,7 +2,7 @@ $(document).ready(function() {
 var listChannel = ["ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "storbeck", "habathcx", "RobotCaleb", "noobs2ninjas", "brunofin", "comster404"];
 
 
-var myUrl = 'https://wind-bow.gomix.me/twitch-api/streams/'
+var myUrl = 'https://wind-bow.gomix.me/twitch-api/streams/';
 
 var statusChannel = [];
 var urlChannel=[]; 
